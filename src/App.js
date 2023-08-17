@@ -5,13 +5,19 @@ import React, { useState } from 'react'
 import Home from "./components/Home";
 import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <div>
       <Particle/>
-      <Home/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element = {<Home/>}></Route>
+          <Route path='/projects' element = {<Projects/>}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
