@@ -44,6 +44,7 @@ export default function Home() {
         
         Hardik Bhatia
         </Text>
+    
         <Text
           bgGradient='linear(to-l, #7928CA, #FF0080)'
           bgClip='text'
