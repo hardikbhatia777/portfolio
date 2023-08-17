@@ -10,6 +10,7 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 function App() {
   return (
     <div>
+      <Particle/>
       <Home/>
     </div>
   );

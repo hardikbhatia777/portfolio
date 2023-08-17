@@ -57,17 +57,7 @@ export default function Home() {
         <a id="alinks" className="links" href="https://github.com/hardikbhatia777"><img src={instagram} height="50px" width="50px"/></a>
     </div>
     </Container>
-        </ChakraProvider>
-    <div className="flexcont"> 
-      <div className="para">
-        <center><h1>About me</h1><br/>A problem solver of spectacular skill. Adept at coding in C++, Python, Java and comfortable with working in framworks such as Angular, React and Django amongst many others.
-        I am a Web Development and Machine Learning enthusiast. I am a fast learner and actively engaged in many different domains involving coding, scripting, data science and more! </center>
-      </div><div className="para">
-        <center><h1>About me</h1><br/>A problem solver of spectacular skill. Adept at coding in C++, Python, Java and comfortable with working in framworks such as Angular, React and Django amongst many others.
-        I am a Web Development and Machine Learning enthusiast. I am a fast learner and actively engaged in many different domains involving coding, scripting, data science and more! </center>
-        <Link to="hehe" smooth={true}></Link>
-      </div>
-      </div></div>
+        </ChakraProvider></div>
 
     
     </div>
