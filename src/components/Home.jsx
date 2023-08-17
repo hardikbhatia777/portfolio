@@ -20,6 +20,9 @@ import {
   SkeletonText,
   Center,
 } from "@chakra-ui/react";
+
+
+
 export default function Home() {
     const [text, count]= useTypewriter({
         words: ["Computer Vision", "Data Science", "MLOps"],
@@ -44,7 +47,7 @@ export default function Home() {
         <Text
           bgGradient='linear(to-l, #7928CA, #FF0080)'
           bgClip='text'
-          fontSize='4xl'
+          fontSize='3xl'
           fontWeight= 'semibold'
         >
         

@@ -79,6 +79,15 @@ video{
   left: 0;
 }
 
+.sidebar
+{
+  position: absolute;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+
 .content{
   position: absolute;
   width: 100%;
