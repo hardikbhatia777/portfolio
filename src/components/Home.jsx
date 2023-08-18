@@ -20,9 +20,9 @@ import {
   SkeletonText,
   Center,
 } from "@chakra-ui/react";
-
+import EarthCanvas from '../canvas/Earth'
 import { motion } from 'framer-motion'
-
+import StarsCanvas from '../canvas/Stars'
 export default function Home() {
     const [text, count]= useTypewriter({
         words: ["Computer Vision", "Data Science", "MLOps"],
@@ -31,10 +31,10 @@ export default function Home() {
         deleteSpeed: 40,
         delaySpeed: 1500,})
   return (
+    
     <div className='main'>
         <div className="content">
         <ChakraProvider>
-
       <Container centerContent maxW={2000}>
       <motion.div
       initial={{ y: -100, opacity: 0, scale: 1 }}
@@ -50,7 +50,9 @@ export default function Home() {
           fontSize='8xl'
           fontWeight='bold'
         >
-            Hardik Bhatia</Text>
+            Hardik Bhatia
+            </Text>
+            
         
         <Text
           bgGradient='linear(to-l, #7928CA, #FF0080)'
@@ -59,7 +61,7 @@ export default function Home() {
           fontWeight= 'semibold'
           textAlign='center'
         >
-        
+
         {text}<Cursor cursorColor='white'/><br/>
         </Text>
         </motion.div>
@@ -68,7 +70,7 @@ export default function Home() {
       initial={{ y: 50, opacity: 0, scale: 1 }}
       animate={{ y: 0, opacity: 1, scale: 1 }}
       transition={{
-        duration: 1,
+        duration: 0.8,
         delay: 0.3,
         ease: [0, 0.5, 0.2, 1.01]
       }}>
@@ -81,8 +83,6 @@ export default function Home() {
 
     </Container>
         </ChakraProvider></div>
-
-    
     </div>
   )
 }

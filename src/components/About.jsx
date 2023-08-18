@@ -20,7 +20,7 @@ import {
   SkeletonText,
   Center,
 } from "@chakra-ui/react";
-
+import { fadeIn, textVariant } from "../utils/motion";
 import { motion } from 'framer-motion'
 
 export default function Home() {
@@ -43,16 +43,15 @@ export default function Home() {
         delay: 0,
         ease: [0, 0.5, 0.2, 1.01]
       }}>
-        <Text
-          bgGradient='linear(to-l, #FFFFFF, #FFFFFF)'
-          bgClip='text'
-          fontSize='3xl'
-          fontWeight='semibold'
-          fontFamily='Roboto'
-        >
-            Hey there, I am Hardik Bhatia, a third year student pursuing Information Technology at VIT Vellore</Text>
+        <div className='about-heading'>
+            <span style={{fontSize: 80}}>Hey there 👋</span><br/> I'm Hardik, an AI developer specializing in<br/>
+            Deep Learning and Data Science. 
+         </div><br/><br/><br/>
+         <div className='about-content'>
+          As an engineer, I strive to provide unique and optimized solutions <br/>
+          to problems that I find interesting from all domains of software development.
+         </div>
           </motion.div>
-
     </Container>
     </ChakraProvider></div>
 

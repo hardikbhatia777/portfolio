@@ -20,8 +20,7 @@ import {
   SkeletonText,
   Center,
 } from "@chakra-ui/react";
-
-
+import StarsCanvas from '../canvas/Stars'
 
 export default function Projects() {
     const [text, count]= useTypewriter({
@@ -30,7 +29,6 @@ export default function Projects() {
         delaySpeed:600,})
   return (
     <div className='main'>
-      <div className='test'>
         <div className="content">
         <ChakraProvider>
       
@@ -63,8 +61,6 @@ export default function Projects() {
     </Container>
         </ChakraProvider>
         </div>
-      </div>
-    
     </div>
   )
 }

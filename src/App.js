@@ -8,19 +8,22 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import StarsCanvas from "./canvas/Stars";
 function App() {
   return (
     <div>
 
-      <Particle/>
       <BrowserRouter>
+      <StarsCanvas/>
       <Navbar/>
         <Routes>
           <Route path='/' element = {<Home/>}></Route>
           <Route path='/projects' element = {<Projects/>}></Route>
           <Route path='/about' element = {<About/>}></Route>
         </Routes>
+        
       </BrowserRouter>
+      
     </div>
   );
 }
