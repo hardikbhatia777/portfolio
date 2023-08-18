@@ -78,7 +78,8 @@ export default function Home() {
       </div>
       <br/><br/><br/><br/><br/><br/><br/>
       </motion.div>
-
+      </Container>
+    </ChakraProvider>
         <motion.div
       initial="hidden"
       whileInView="visible"
@@ -92,6 +93,7 @@ export default function Home() {
         hidden: { x: -100, opacity: 0, scale: 1 }
       }}
     >
+      
       <br/><br/><br/><br/><br/>
         <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
         <div className='about-content'>
@@ -109,21 +111,15 @@ export default function Home() {
         Beyond AI, I'm an avid explorer of the web development realm. I revel in the art of creating sleek, 
         user-friendly interfaces that seamlessly merge form and function. Whether it's responsive designs, 
         interactive user experiences, or the magic of backend development, I'm always up for the challenge.
-        <br/> <br/>
-        This website serves as a glimpse into my world of coding, AI exploration, and web development endeavors. 
-        Join me on this exciting journey of bytes and pixels as we navigate the ever-expanding horizons of technology
-         together. I'm delighted to 
-         have you accompany me on this adventure!
          </div>
-         <div className='earth'> 
+         <div className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'> 
             <EarthCanvas/>
           </div>
           </div>
           <br/><br/><br/><br/>
         <br/><br/><br/><br/>
         </motion.div>
-        </Container>
-    </ChakraProvider>
+
 </div>
     </div>
 
