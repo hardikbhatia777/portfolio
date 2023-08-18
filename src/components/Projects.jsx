@@ -23,14 +23,14 @@ import {
 
 
 
-export default function Home() {
+export default function Projects() {
     const [text, count]= useTypewriter({
         words: ["Computer Vision", "Data Science", "MLOps"],
         loop:true,
         delaySpeed:600,})
   return (
     <div className='main'>
-        <div className="overlay"></div>
+      <div className='test'>
         <div className="content">
         <ChakraProvider>
       
@@ -61,8 +61,9 @@ export default function Home() {
         <a id="alinks" className="links" href="https://github.com/hardikbhatia777"><img src={instagram} height="50px" width="50px"/></a>
     </div>
     </Container>
-        </ChakraProvider></div>
-
+        </ChakraProvider>
+        </div>
+      </div>
     
     </div>
   )

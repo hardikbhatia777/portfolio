@@ -27,7 +27,9 @@ export default function Home() {
     const [text, count]= useTypewriter({
         words: ["Computer Vision", "Data Science", "MLOps"],
         loop:true,
-        delaySpeed:600,})
+        typeSpeed: 40,
+        deleteSpeed: 40,
+        delaySpeed: 1500,})
   return (
     <div className='main'>
         <div className="content">
@@ -35,9 +37,13 @@ export default function Home() {
 
       <Container centerContent maxW={2000}>
       <motion.div
-        initial = {{x:300}}
-        animate = {{x:0}}
-        transition={{type : 'spring', duration : 1, bounce:0.3}}>
+      initial={{ y: -100, opacity: 0, scale: 1 }}
+      animate={{ y: 0, opacity: 1, scale: 1 }}
+      transition={{
+        duration: 1,
+        delay: 0,
+        ease: [0, 0.5, 0.2, 1.01]
+      }}>
         <Text
           bgGradient='linear(to-l, #FFFFFF, #FFFFFF)'
           bgClip='text'
@@ -59,9 +65,13 @@ export default function Home() {
         </motion.div>
         <div className="links">
         <motion.div
-        initial = {{y:300}}
-        animate = {{y:0}}
-        transition={{type : 'spring', duration : 1, bounce:0.3}}>
+      initial={{ y: 50, opacity: 0, scale: 1 }}
+      animate={{ y: 0, opacity: 1, scale: 1 }}
+      transition={{
+        duration: 1,
+        delay: 0.3,
+        ease: [0, 0.5, 0.2, 1.01]
+      }}>
         <a id="alinks" className="links" href="https://github.com/hardikbhatia777"><img className="git" src={git_blue} height="50px" width="50px"/></a>
         <a id="alinks" className="links" href="https://github.com/hardikbhatia777"><img src={linkedin} height="50px" width="50px"/></a>
         <a id="alinks" className="links" href="https://github.com/hardikbhatia777"><img src={twitter} height="50px" width="50px"/></a>

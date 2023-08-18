@@ -1,4 +1,16 @@
 
+*
+{
+  cursor: mouse;
+}
+
+.test
+{
+  background-color: black;
+  z-index: 100;
+  position: fixed;
+}
+
 .main{
   background-color: black;
   transition-duration: 200ms;
@@ -48,6 +60,13 @@ video{
 .link-main:hover
 {
   color: white;
+}
+
+::selection
+{
+  background-color: rgba(255,255,255, 0.1);
+  border: 1px solid;
+  border-color: white;
 }
 
 .navbar-main
