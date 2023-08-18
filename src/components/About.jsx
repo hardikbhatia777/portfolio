@@ -6,7 +6,6 @@ import {
   ChakraProvider,
   Container,
 } from "@chakra-ui/react";
-import AI2 from "./media/AI2.png"
 import { motion } from 'framer-motion'
 import EarthCanvas from '../canvas/Earth';
 
@@ -20,12 +19,12 @@ const scrollToBottom = () => {
 
 
 
-
 export default function Home() {
 
   return (
     <div className='main'>
       <div className="content">
+
       <ChakraProvider>
       <Container centerContent maxW={2000}>
       <motion.div
@@ -93,8 +92,7 @@ export default function Home() {
         hidden: { x: -100, opacity: 0, scale: 1 }
       }}
     >
-      <br/><br/><br/>
-        <div className='interest'>
+        <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
         <div className='about-content'>
         Welcome to my corner of the digital realm! I'm thrilled to have you here. I'm a passionate
          software engineer with a deep-rooted love for crafting innovative solutions that meld technology 
@@ -122,7 +120,7 @@ export default function Home() {
           </div>
           </div>
 
-        
+        <br/><br/><br/><br/>
         </motion.div>
         </Container>
     </ChakraProvider>

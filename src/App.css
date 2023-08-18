@@ -10,28 +10,38 @@
   text-align: center;
   font-size: 30px;
 }
-.earth
-{
-  height: 60%;
-  width: 40%;
-}
+
 .interest
 {
   display: inline-flex;
-  height: 80vh;
-  align-content: center;
+  height: 90vh;
+}
+.earth
+{
+  height: auto;
+  width: 700px;
 }
 .about-content
 {
-  padding-left: 60px;
-  padding-right: 20px;
   color: #ebebebce;
-  font-size: 23px;
   text-align: justify;
   text-justify: inter-word;
+  font-size: 23px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 60%;
 }
-
+@media (max-width: 800px) {
+  .about-content {
+    width: 100%;
+    font-size: small;
+  }
+  .earth
+{
+  height: fit-content;
+  width: fit-content;
+}
+}
 .top
 {
   z-index: -1;

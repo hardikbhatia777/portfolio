@@ -23,6 +23,7 @@
     "framer-motion": "^10.16.0",
     "mdb-react-ui-kit": "^5.1.0",
     "mdbreact": "^5.2.0",
+    "re-resizable": "^6.9.11",
     "react": "^18.2.0",
     "react-animation-on-scroll": "^5.1.0",
     "react-bootstrap": "^2.7.0",
