@@ -92,6 +92,7 @@ export default function Home() {
         hidden: { x: -100, opacity: 0, scale: 1 }
       }}
     >
+      <br/><br/><br/><br/><br/>
         <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
         <div className='about-content'>
         Welcome to my corner of the digital realm! I'm thrilled to have you here. I'm a passionate
@@ -113,13 +114,12 @@ export default function Home() {
         Join me on this exciting journey of bytes and pixels as we navigate the ever-expanding horizons of technology
          together. I'm delighted to 
          have you accompany me on this adventure!
-
          </div>
          <div className='earth'> 
             <EarthCanvas/>
           </div>
           </div>
-
+          <br/><br/><br/><br/>
         <br/><br/><br/><br/>
         </motion.div>
         </Container>
