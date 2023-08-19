@@ -9,6 +9,8 @@ import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import StarsCanvas from "./canvas/Stars";
+import Skills from "./components/Skills";
+
 function App() {
   return (
     <div>
@@ -19,6 +21,7 @@ function App() {
         <Routes>
           <Route path='/' element = {<Home/>}></Route>
           <Route path='/projects' element = {<Projects/>}></Route>
+          <Route path='/skills' element = {<Skills/>}></Route>
           <Route path='/about' element = {<About/>}></Route>
         </Routes>
         

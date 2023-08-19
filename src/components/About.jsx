@@ -36,7 +36,7 @@ export default function Home() {
         ease: [0, 0.5, 0.2, 1.01]
       }}>
 
-            <span style={{fontSize: 80, color: '#ebebebce'}}>Hey there 👋</span><br/> 
+            <div className='about-heading-large'>Hey there 👋</div><br/> 
             </motion.div>
       <motion.div
       initial={{ x: -100, opacity: 0, scale: 1 }}
@@ -116,8 +116,7 @@ export default function Home() {
             <EarthCanvas/>
           </div>
           </div>
-          <br/><br/><br/><br/>
-        <br/><br/><br/><br/>
+          <br/><br/><br/><br/><br/><br/>
         </motion.div>
 
 </div>

@@ -17,7 +17,13 @@ export default function Navbar() {
                 About
             </div> 
             </Link>
-            
+        </div>
+        <div className='navbar-item'>
+        <Link to="/skills" className = 'link-main'>
+            <div className='navbar-link' tabindex = "1">
+                 Skills
+            </div>
+        </Link>
         </div> 
         <div className='navbar-item'>
         <Link to="/projects" className = 'link-main'>
@@ -31,7 +37,7 @@ export default function Navbar() {
             <div className='navbar-link' tabindex = "1">
                  Contact 
             </div>
-            </Link>
+        </Link>
         </div>
 
     </div>

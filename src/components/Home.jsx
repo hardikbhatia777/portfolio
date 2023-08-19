@@ -5,6 +5,7 @@ import git_blue from "./media/git_blue.png"
 import linkedin from "./media/linkedin.png"
 import twitter from "./media/twitter.png"
 import instagram from "./media/instagram.png"
+
 import {
   ChakraProvider,
   Heading,
@@ -82,7 +83,7 @@ export default function Home() {
     </div>
 
     </Container>
-        </ChakraProvider></div>
+    </ChakraProvider></div>
     </div>
   )
 }
