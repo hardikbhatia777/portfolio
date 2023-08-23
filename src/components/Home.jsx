@@ -1,5 +1,4 @@
 import React from 'react'
-import video from "./media/video.mp4"
 import {Cursor, useTypewriter} from "react-simple-typewriter"
 import git_blue from "./media/git_blue.png"
 import linkedin from "./media/linkedin.png"
