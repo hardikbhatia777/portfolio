@@ -32,14 +32,6 @@ export default function Navbar() {
             </div>
             </Link>
         </div>
-        <div className='navbar-item'>
-        <Link to="/contact" className = 'link-main'>
-            <div className='navbar-link' tabindex = "1">
-                 Contact 
-            </div>
-        </Link>
-        </div>
-
     </div>
   )
 }

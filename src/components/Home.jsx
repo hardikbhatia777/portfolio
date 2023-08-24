@@ -45,7 +45,7 @@ export default function Home() {
         ease: [0, 0.5, 0.2, 1.01]
       }}>
         <Text
-          bgGradient='linear(to-l, #FFFFFF, #FFFFFF)'
+          bgGradient='linear(to-l, #FFFFFFDD, #FFFFFFDD)'
           bgClip='text'
           fontSize='8xl'
           fontWeight='bold'
@@ -55,9 +55,9 @@ export default function Home() {
             
         
         <Text
-          bgGradient='linear(to-l, #7928CA, #FF0080)'
+          bgGradient='linear(to-l, #113dceBB, #ffffffBB)'
           bgClip='text'
-          fontSize='3xl'
+          fontSize='4xl'
           fontWeight= 'semibold'
           textAlign='center'
         >

@@ -195,7 +195,7 @@ export default function Skills() {
                 <br/>Docker
               </div>
               <div className='skills-item'>
-                <img src={git_blue} height='60px' loading='lazy' width='60px' className='skills-links' alt=''/>
+                <img src={git_blue} height='60px' loading='lazy'   width='60px' className='skills-links' alt=''/>
                 <br/>GitHub
               </div>
             </div>
