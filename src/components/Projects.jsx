@@ -57,7 +57,7 @@ export default function Projects() {
                     DiffusionPalette
                       </span><br/><br/>
                     <div className='projects-description'>
-                    Using Stable Diffusion, generate high quality Text-To-Image AI art, locally and for free! <br/>Note: GPU is recommended 
+                    Using Stable Diffusion, generate high quality <br/>Text-To-Image AI art, locally and for free! <br/>Note: GPU is recommended 
                     
                     <br/><br/>
                     Technologies used: <br/>
