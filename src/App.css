@@ -578,12 +578,12 @@ a.links:hover{
   width: 100%;
   height: 100%;
   margin-top: 15vh;
+  margin-bottom: 15vh;
   top: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 30vh;
 }
 
 .projects-image
@@ -672,14 +672,14 @@ a.links:hover{
 
 .projects-box:hover
 {
-  height: 70vh;
+  height: 60vh;
   margin: 30px;
   background-color: rgba(255, 255, 255, 0.021);
   backdrop-filter: blur(2px);
   border-radius: 30px;
   box-shadow: 0px 0px 20px 0 rgba(255, 255, 255, 0.863);
   text-align: center;
-  width: 350px;
+  width: auto;
   scale: 1;
   transition: 0.5s;
 }

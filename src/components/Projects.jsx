@@ -143,6 +143,7 @@ export default function Projects() {
 
                   </div>
                   </motion.div>
+                 
           </div>
           
         </div>
